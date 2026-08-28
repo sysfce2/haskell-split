@@ -1,3 +1,7 @@
+* 0.2.5.1 (28 August 2026)
+
+  - Fix typo in documentation of `linesBy`
+
 * 0.2.5 (9 January 2024)
 
   - Test with GHC 9.8.
