@@ -545,7 +545,7 @@ wordsBy :: (a -> Bool) -> [a] -> [[a]]
 wordsBy = split . dropBlanks . dropDelims . whenElt
 
 -- | Split into \"lines\", with line boundaries indicated by the given
---   predicate. Satisfies @'lines' === linesBy (=='\n')@; equivalent to
+--   predicate. Satisfies @'lines' === linesBy (=='\\n')@; equivalent to
 --   @'split' . 'dropFinalBlank' . 'dropDelims' . 'whenElt'@.
 --
 -- >>> linesBy (==';') "foo;bar;;baz;"
